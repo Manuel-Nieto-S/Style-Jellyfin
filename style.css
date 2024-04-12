@@ -1788,7 +1788,7 @@ div#divUsers {
   max-width: 45em;
 }
 /*-------------------------------------------------------------------------------*/
-#loginPage .padded-left.padded-right.padded-bottom-page {
+/*#loginPage .padded-left.padded-right.padded-bottom-page {
   width: 50vw;
   margin-left: auto;
   margin-right: auto;
@@ -1801,7 +1801,7 @@ div#divUsers {
   background: transparent;
   overflow: hidden;
 }
-
+*/
 
 /*-----------------------------------------------------------------------*/
 
@@ -1963,9 +1963,9 @@ div#divUsers::-webkit-scrollbar-track {
 #loginPage .raised::before {
   display: none;
 }
-/*
+
 #loginPage .raised span {
   z-index: 1;
   color: white;
   background: transparent;
-}*/
+}
