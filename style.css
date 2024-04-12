@@ -1504,7 +1504,7 @@ h2 {
 .listItem.listItem-border {
   border-radius: 0 !important;
 }
-
+/*
 a.button-link.emby-button[href="https://jellyfin.org"]:hover,
 a.button-link.emby-button[href="https://jellyfin.org"]:focus
 {
@@ -1527,7 +1527,7 @@ a.button-link.emby-button[href="https://jellyfin.org"]::after
   height: 5px;
   bottom: -5px;
 }
-
+*/
 /*Theming Playback data info*/
 
 .playerStats {
@@ -1652,12 +1652,12 @@ select#user_list_for_add {
   background: #5dd000;
 }
 /* Fondo de Pantalla Dentro de la Interfaz */
-.backgroundContainer {
+/*.backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url('https://eveniments.es/wp-content/uploads/2019/03/fondos-abstractos-para-paginas-web-wallpaper-hd-para-bajar-gratis-elegant-3d-abstract-wallpaper-2018-wallpapers-hd-en-2018-of-fondos-abstractos-para-paginas-web-wallpaper-hd-para-bajar-grati.jpg');
   filter: blur(2px);
   background-size: cover;
-} 
+} */
 
 /* Limitar el formulario de inicio de sesion*/
 #loginPage .readOnlyContent,
@@ -1811,7 +1811,7 @@ div#divUsers {
 .layout-mobile #loginPage .inputContainer {
   position: relative;
   height: 3rem;
-  border: 2px solid #FBFCFC;
+  border: 1px solid #FBFCFC;
   border-radius: 30px;
   overflow: hidden;
 }
