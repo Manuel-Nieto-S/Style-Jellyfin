@@ -1769,7 +1769,7 @@ display: none;
 
 
 
-div#loginPage {
+/*div#loginPage {
   margin-top: 0 !important;
   position: fixed;
   background-image: url('https://th.bing.com/th/id/R.7b60fb067d749880a3105a79b85dc8a3?rik=rQkXg4wpRQsqhA&pid=ImgRaw&r=0')
@@ -1808,7 +1808,7 @@ div#divUsers {
 .layout-mobile #loginPage h1 {
   display: none;
 }
-.layout-mobile #loginPage .inputContainer {
+/*.layout-mobile #loginPage .inputContainer {
   position: relative;
   height: 3rem;
   border: 1px solid #FBFCFC;
@@ -1891,10 +1891,10 @@ div#divUsers {
     font-size: 0.895rem !important;
   }
 }
-
+*/
 /*----------------------------------------------------------------------------*/
 
-
+/*
 .layout-mobile #loginPage .padded-left.padded-right.padded-bottom-page {
   background: #eee;
   width: 80%;
@@ -1930,11 +1930,11 @@ div#divUsers {
   background: linear-gradient(90deg, #aa5cc3 0%, #00a4dc);
   font-size: 1.3rem !important;
   overflow: hidden !important;
-}
+}*/
 
 /*----------------------------------------------------------*/
 
-#loginPage .cardBox.cardBox-bottompadded {
+/*#loginPage .cardBox.cardBox-bottompadded {
   margin: 0;
   box-shadow: none;
   background: transparent;
@@ -1969,3 +1969,4 @@ div#divUsers::-webkit-scrollbar-track {
   color: white;
   background: transparent;
 }
+*/
