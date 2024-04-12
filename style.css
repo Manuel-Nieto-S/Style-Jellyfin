@@ -1808,13 +1808,13 @@ div#divUsers {
 .layout-mobile #loginPage h1 {
   display: none;
 }
-.layout-mobile #loginPage .inputContainer {
+/*.layout-mobile #loginPage .inputContainer {
   position: relative;
   height: 3rem;
   border: 1px solid #FBFCFC;
   border-radius: 30px;
   overflow: hidden;
-}
+}*/
 .layout-mobile #loginPage .inputLabel[for="txtManualName"] {
   font-size: 0;
   color: #383838;
