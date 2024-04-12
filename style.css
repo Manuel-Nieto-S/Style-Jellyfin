@@ -1804,17 +1804,57 @@ div#divUsers {
 
 
 /*-----------------------------------------------------------------------*/
+.layout-mobile #loginPage {
+  background: linear-gradient(140deg, #3e2247 10%, #003c50) !important;
+  overflow: scroll;
+}
 
+.layout-mobile #loginPage .padded-left.padded-right.padded-bottom-page {
+  background: #eee;
+  width: 80%;
+  color: #373737;
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.layout-mobile #loginPage .cardBox.cardBox-bottompadded {
+  background: white;
+  color: black;
+  font-weight: 800;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  box-shadow: none;
+}
+
+.layout-mobile #loginPage .emby-input {
+  height: 100%;
+  width: 80%;
+  float: right;
+  background: transparent !important;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none !important;
+  border: none;
+  font-size: 2rem;
+  text-shadow: none;
+}
+
+.layout-mobile #loginPage .raised {
+  border-radius: 50px;
+  background: linear-gradient(90deg, #aa5cc3 0%, #00a4dc);
+  font-size: 1.3rem !important;
+  overflow: hidden !important;
+}
 .layout-mobile #loginPage h1 {
   display: none;
 }
-/*.layout-mobile #loginPage .inputContainer {
+.layout-mobile #loginPage .inputContainer {
   position: relative;
   height: 3rem;
   border: 1px solid #FBFCFC;
   border-radius: 30px;
   overflow: hidden;
-}*/
+}
 .layout-mobile #loginPage .inputLabel[for="txtManualName"] {
   font-size: 0;
   color: #383838;
