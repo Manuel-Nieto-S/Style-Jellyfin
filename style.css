@@ -1765,19 +1765,14 @@ display: none;
 
 
 
-
-
-
-
-/*div#loginPage {
-  margin-top: 0 !important;
-  position: fixed;
-  background-image: url('https://th.bing.com/th/id/R.7b60fb067d749880a3105a79b85dc8a3?rik=rQkXg4wpRQsqhA&pid=ImgRaw&r=0')
+.layout-mobile #loginPage h1 {
+  display: none;
 }
-    #loginPage .squareCard {
+
+/*-LAYOUT-DESKTOP*/
+ #loginPage .squareCard {
   width: 20vh;
 }
-
 div#divUsers {
   display: flex;
   flex-flow: row;
@@ -1787,8 +1782,7 @@ div#divUsers {
   grid-gap: 10px;
   max-width: 45em;
 }
-/*-------------------------------------------------------------------------------*/
-/*#loginPage .padded-left.padded-right.padded-bottom-page {
+#loginPage .padded-left.padded-right.padded-bottom-page {
   width: 50vw;
   margin-left: auto;
   margin-right: auto;
@@ -1801,26 +1795,31 @@ div#divUsers {
   background: transparent;
   overflow: hidden;
 }
-*/
-
-/*-----------------------------------------------------------------------*/
-
-.layout-mobile #loginPage h1 {
-  display: none;
-}
-/*.layout-mobile #loginPage .inputContainer {
-  position: relative;
-  height: 3rem;
-  border: 1px solid #FBFCFC;
-  border-radius: 25px;
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 2em !important;
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: transparent;
   overflow: hidden;
 }
-.layout-mobile #loginPage .inputLabel[for="txtManualName"] {
+ #loginPage .inputContainer {
+  position: relative;
+  height: 3rem;
+  border: 3px solid #aa5cc3;
+  border-radius: 30px;
+  overflow: hidden;
+}
+ #loginPage .inputLabel[for="txtManualName"] {
   font-size: 0;
   color: #383838;
 }
-
-.layout-mobile #loginPage .inputLabel[for="txtManualName"]::before {
+#loginPage .inputLabel[for="txtManualName"]::before {
   content: "\f406";
   font-size: 2rem;
   font-family: "Font Awesome 5 Pro";
@@ -1829,8 +1828,7 @@ div#divUsers {
   transform: translateY(-50%);
   left: 1rem;
 }
-
-.layout-mobile #loginPage .inputLabel[for="txtManualName"]::after {
+#loginPage .inputLabel[for="txtManualName"]::after {
   content: "";
   height: 70%;
   width: 2px;
@@ -1840,8 +1838,7 @@ div#divUsers {
   top: 50%;
   transform: translateY(-50%);
 }
-
-.layout-mobile #loginPage .inputLabel[for="txtManualName"]::after {
+#loginPage .inputLabel[for="txtManualName"]::after {
   content: "";
   height: 70%;
   width: 2px;
@@ -1851,13 +1848,11 @@ div#divUsers {
   top: 50%;
   transform: translateY(-50%);
 }
-
-.layout-mobile #loginPage .inputLabel[for="txtManualPassword"] {
+ #loginPage .inputLabel[for="txtManualPassword"] {
   font-size: 0;
   color: #383838;
 }
-
-.layout-mobile #loginPage .inputLabel[for="txtManualPassword"]::before {
+#loginPage .inputLabel[for="txtManualPassword"]::before {
   content: "\f084";
   font-size: 2rem;
   font-family: "Font Awesome 5 Pro";
@@ -1866,8 +1861,7 @@ div#divUsers {
   transform: translateY(-50%);
   left: 1rem;
 }
-
-.layout-mobile #loginPage .inputLabel[for="txtManualPassword"]::after {
+#loginPage .inputLabel[for="txtManualPassword"]::after {
   content: "";
   height: 70%;
   width: 2px;
@@ -1878,41 +1872,27 @@ div#divUsers {
   transform: translateY(-50%);
 }
 @media (max-width: 346px) {
-  .layout-mobile #loginPage .inputLabel[for="txtManualName"]::before {
+   #loginPage .inputLabel[for="txtManualName"]::before {
     font-size: 2.5rem;
   }
-  .layout-mobile #loginPage .inputLabel[for="txtManualPassword"]::before {
+   #loginPage .inputLabel[for="txtManualPassword"]::before {
     font-size: 2.5rem;
   }
-  .layout-mobile #loginPage .emby-input {
+   #loginPage .emby-input {
     font-size: 1.5rem;
   }
-  .layout-mobile #loginPage .raised {
+  #loginPage .raised {
     font-size: 0.895rem !important;
   }
 }
-*/
-/*----------------------------------------------------------------------------*/
-
-/*
-.layout-mobile #loginPage .padded-left.padded-right.padded-bottom-page {
-  background: #eee;
-  width: 80%;
-  color: #373737;
-  border-radius: 5px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.layout-mobile #loginPage .cardBox.cardBox-bottompadded {
+ #loginPage .cardBox.cardBox-bottompadded {
   background: white;
   color: black;
   font-weight: 800;
   border: 10px solid rgba(0, 0, 0, 0.5);
   box-shadow: none;
 }
-
-.layout-mobile #loginPage .emby-input {
+#loginPage .emby-input {
   height: 100%;
   width: 80%;
   float: right;
@@ -1924,17 +1904,15 @@ div#divUsers {
   font-size: 2rem;
   text-shadow: none;
 }
-
-.layout-mobile #loginPage .raised {
+#loginPage .raised {
   border-radius: 50px;
   background: linear-gradient(90deg, #aa5cc3 0%, #00a4dc);
   font-size: 1.3rem !important;
   overflow: hidden !important;
-}*/
+}
 
-/*----------------------------------------------------------*/
 
-/*#loginPage .cardBox.cardBox-bottompadded {
+#loginPage .cardBox.cardBox-bottompadded {
   margin: 0;
   box-shadow: none;
   background: transparent;
@@ -1945,10 +1923,6 @@ div#divUsers {
   border-radius: var(--rounding);
 }
 
-#loginPage .emby-button {
-  background: rgb(255 255 255 / 0.2);
-  border: 2px solid white;
-}
 
 #loginPage .emby-button:hover {
   background: rgb(255 255 255 / 0.35);
@@ -1969,4 +1943,3 @@ div#divUsers::-webkit-scrollbar-track {
   color: white;
   background: transparent;
 }
-*/
