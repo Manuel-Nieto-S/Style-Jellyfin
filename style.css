@@ -1069,9 +1069,9 @@ h2 {
   transform: translateX(-50%);
 }
 
-.layout-mobile .detailLogo {
+/*.layout-mobile .detailLogo {
   display: none;
-}
+}*/
 
 .layout-mobile .tagline {
   text-align: center;
