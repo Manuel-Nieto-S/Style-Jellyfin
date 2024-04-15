@@ -1069,7 +1069,7 @@ h2 {
   transform: translateX(-50%);
 }
 
-.detailLogo {
+.layout-mobile .detailLogo {
   display: none;
 }
 
