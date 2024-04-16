@@ -1642,22 +1642,22 @@ select#user_list_for_add {
 }
 
 
-/* FondodePantallaIniciodeSesion 
+/* FondodePantallaIniciodeSesion */
 #loginPage{
     background: url('https://th.bing.com/th/id/R.7b60fb067d749880a3105a79b85dc8a3?rik=rQkXg4wpRQsqhA&pid=ImgRaw&r=0');
    background-size: cover;
-}*/
+}
 /* IndicadorVerdeVisualizacionCompleta */
 .playedIndicator {
   background: #5dd000;
 }
 /* Fondo de Pantalla Dentro de la Interfaz */
-/*.backgroundContainer {
+.backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url('https://eveniments.es/wp-content/uploads/2019/03/fondos-abstractos-para-paginas-web-wallpaper-hd-para-bajar-gratis-elegant-3d-abstract-wallpaper-2018-wallpapers-hd-en-2018-of-fondos-abstractos-para-paginas-web-wallpaper-hd-para-bajar-grati.jpg');
   filter: blur(2px);
   background-size: cover;
-} */
+} 
 
 /* Limitar el formulario de inicio de sesion*/
 #loginPage .readOnlyContent,
@@ -1801,13 +1801,15 @@ div#divUsers {
   background: transparent;
   overflow: hidden;
 }
- /*#loginPage .inputContainer {
+ #loginPage .inputContainer {
   position: relative;
   height: 3rem;
   border: 3px solid #aa5cc3;
   border-radius: 30px;
   overflow: hidden;
-}*/
+  box-shadow: 0 0 5px #cc6eeb, inset 0 0 5px #cc6eeb;
+}
+
  #loginPage .inputLabel[for="txtManualName"] {
   font-size: 0;
   color: #383838;
@@ -1955,6 +1957,7 @@ div#divUsers::-webkit-scrollbar-track {
   border: 3px solid #aa5cc3;
   border-radius: 30px;
   overflow: hidden;
+  box-shadow: 0 0 5px #cc6eeb, inset 0 0 5px #cc6eeb;
 }
 .layout-mobile #loginPage .inputLabel[for="txtManualName"] {
   font-size: 0;
