@@ -1655,7 +1655,7 @@ select#user_list_for_add {
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url('https://eveniments.es/wp-content/uploads/2019/03/fondos-abstractos-para-paginas-web-wallpaper-hd-para-bajar-gratis-elegant-3d-abstract-wallpaper-2018-wallpapers-hd-en-2018-of-fondos-abstractos-para-paginas-web-wallpaper-hd-para-bajar-grati.jpg');
-  filter: blur(2px);
+  filter: blur(0px);
   background-size: cover;
 } 
 
