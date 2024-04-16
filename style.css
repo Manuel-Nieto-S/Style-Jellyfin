@@ -1801,13 +1801,13 @@ div#divUsers {
   background: transparent;
   overflow: hidden;
 }
- #loginPage .inputContainer {
+ /*#loginPage .inputContainer {
   position: relative;
   height: 3rem;
   border: 3px solid #aa5cc3;
   border-radius: 30px;
   overflow: hidden;
-}
+}*/
  #loginPage .inputLabel[for="txtManualName"] {
   font-size: 0;
   color: #383838;
