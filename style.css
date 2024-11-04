@@ -585,7 +585,7 @@ select {
   text-shadow: 0 0 5px black !important;
 }
 
-/*Header*/
+/*Header
 
 .skinHeader-withBackground {
   text-shadow: 0 0 5px black;
@@ -754,7 +754,7 @@ div#itemBackdrop {
   .childrenSectionHeader.sectionTitle.sectionTitle-cards {
   text-shadow: none !important;
 }
-
+*/
 /*Subtitle preview*/
 
 .subtitleappearance-preview {
