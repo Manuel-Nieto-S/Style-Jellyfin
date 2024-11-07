@@ -1660,24 +1660,24 @@ select#user_list_for_add {
 } 
 
 /* Limitar el formulario de inicio de sesion*/
-#loginPage .readOnlyContent,
+/*#loginPage .readOnlyContent,
 #loginPage form {
-  max-width: 25em;
+  max-width: 25em;*/
   /* Pixelear fondo del formulario*/
-  background-color: #1A5276;
+/*  background-color: #1A5276;
   backdrop-filter: blur(65px);
   border-radius: 0.4rem;
 
 }
-
+*/
 /*Ocultar el texto "inicie sesion", el margen es para evitar que el formulario de inicio de sesion se mueva demasiado hacia arriba */
-#loginPage h1 {
+/*#loginPage h1 {
   display: none;
 }
 #loginPage .padded-left.padded-right.padded-bottom-page {
   margin-top: 50px;
 }
-
+*/
 /* Ocultar los botones "manual" y "olvidado" */
 #loginPage .raised.cancel.block.btnManual.emby-button {
   display: none;
@@ -1690,10 +1690,10 @@ select#user_list_for_add {
   display: none;
 }
 /*Oculta el boton de configuracion del encabezado*/
-.material-icons.person {
+/*.material-icons.person {
   display: none; 
 }
-
+*/
 /*Oculta el boton de inicio del encabezado*/
 
 /* .headerHomeButton {
@@ -1763,7 +1763,7 @@ display : none;
 display: none;
 }
 /*-THEME LAYOUT-DESKTOP*/
- #loginPage .squareCard {
+/* #loginPage .squareCard {
   width: 20vh;
 }
 div#divUsers {
@@ -1946,8 +1946,9 @@ div#divUsers::-webkit-scrollbar-track {
   margin-top: auto;
   margin-bottom: auto;
 }
-
+*/
 /*theme layoutmobile*/
+/*
 .layout-mobile #loginPage h1 {
   display: none;
 }
@@ -2071,3 +2072,72 @@ div#divUsers::-webkit-scrollbar-track {
   margin-top: auto;
   margin-bottom: auto;
 }
+*/
+
+#loginPage h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  width: 320px;
+  border-radius: 0.75rem;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 2rem;
+  color: rgba(243, 244, 246, 1);
+}
+/*
+#loginPage .loginDisclaimer{
+  height: 1px;
+  flex: 1 1 0%;
+  background-color: rgba(55, 65, 81, 1);
+  }*/
+#loginPage .readOnlyContent,
+#loginPage form {
+  margin-top: 1.5rem;
+ margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  display: block;
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+  width: 100%;
+  border-radius: 0.375rem;
+  border: 1px solid rgba(55, 65, 81, 1);
+  outline: 0;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 0.75rem 1rem;
+  color: rgba(243, 244, 246, 1);
+  border-color: rgba(167, 139, 250);
+}
+
+
+#loginPage .emby-button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  #loginPage .emby-button {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  #loginPage .emby-button:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+.layout-mobile #loginPage .readOnlyContent,
+.layout-mobile #loginPage form {
+  max-width: 23em;
+}
+
