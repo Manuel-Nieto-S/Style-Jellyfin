@@ -585,13 +585,13 @@ select {
   text-shadow: 0 0 5px black !important;
 }
 
-/*Header
+/*Header*/
 
 .skinHeader-withBackground {
-  text-shadow: 0 0 5px black;
+  text-shadow: 5 0 5px black;
   background-color: transparent !important;
 }
-
+/*
 .emby-button-foreground::after {
   content: "";
   height: 2px;
@@ -1690,10 +1690,10 @@ select#user_list_for_add {
   display: none;
 }
 /*Oculta el boton de configuracion del encabezado*/
-/*.material-icons.person {
+.material-icons.person {
   display: none; 
 }
-*/
+
 /*Oculta el boton de inicio del encabezado*/
 
 /* .headerHomeButton {
