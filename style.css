@@ -591,7 +591,6 @@ select {
   text-shadow: 0 0 5px black;
   background-color:  #053161 !important;
   backdrop-filter: blur(200px);
-  border-radius: 1.5rem;
 }
 /*
 .emby-button-foreground::after {
